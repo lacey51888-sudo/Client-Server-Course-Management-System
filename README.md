@@ -1,5 +1,4 @@
 # Client-Server-Course-Management-System
-=====================================
 
 This project is a Windows-based client-server course timetable system.
 
@@ -13,13 +12,11 @@ Required Files in This Package
 - Database.cpp            : Real database implementation
 - Database.h              : Real database header file
 - courses.txt             : Course data file
-- README_WINDOWS_TEST.txt : Instructions for compilation, running, and testing
 
 Note:
 - server.exe and GUI_Client.exe are generated after compilation.
 - They are not included in this source code package.
 - courses.txt must stay in the same folder as server.exe when running the program.
-
 
 Compilation Method
 ------------------
@@ -95,82 +92,6 @@ Admin account:
 Role: admin
 Username: admin
 Password: 123456
-
-
-Main Functions to Test
-----------------------
-
-1. Student login test
-
-After logging in as a student, test the following functions:
-
-- View all courses
-- Query course by course code
-- Query course by instructor
-- Query all courses for a given semester, for example:
-  2026S1
-- Advanced search by time keyword, for example:
-  Mon
-  10:00
-- Advanced search by section, for example:
-  A
-
-Expected result:
-- Students can view and search course information.
-- Students cannot add, modify, or delete courses.
-
-
-2. Admin login test
-
-After logging in as an admin, test the following functions:
-
-- Add course
-- Modify course
-- Delete course
-- Check that courses.txt is updated after add, modify, or delete operations.
-
-Example course for testing:
-
-Code: TEST101
-Title: Test Course
-Section: A1
-Instructor: Dr.Test
-Time: Mon10:00-12:00
-Room: Room999
-Semester: 2026S1
-
-Expected result:
-- Admin can add, modify, and delete course records.
-- The changes are saved into courses.txt.
-
-
-3. Auto-sync test
-
-Steps:
-
-1. Keep one server.exe window open.
-2. Open two GUI_Client.exe windows.
-3. Login one client as student.
-4. Login the other client as admin.
-5. Admin adds, modifies, or deletes a course.
-6. Student side checks the database version every 1 second and refreshes automatically when an update is detected.
-
-Expected result:
-- The student client can see the updated course data automatically after the admin changes the database.
-
-
-4. Five-client concurrency test
-
-Steps:
-
-1. Keep one server.exe window open.
-2. Open five GUI_Client.exe windows.
-3. Login all five clients as student.
-4. Test different query functions on different clients.
-
-Expected result:
-- The server should respond to all five clients without crashing.
-
 
 Communication Protocol
 ----------------------
