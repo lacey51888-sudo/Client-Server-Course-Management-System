@@ -1,0 +1,20 @@
+COMP1001|Programming Fundamentals|A|Dr.Chen|Wed09:00-11:00|Room101|2026S1
+COMP1002|Web Development|B|Dr.Brown|Thu10:00-12:00|Room102|2026S1
+COMP2001|Database System|B|Dr.Wang|Tue14:00-16:00|Room205|2026S1
+COMP2002|Object-Oriented Programming|A|Dr.Miller|Mon14:00-16:00|Room206|2026S1
+COMP2003|Data Structures and Algorithms|C|Dr.Zhao|Fri09:00-11:00|Room207|2026S1
+COMP3001|Operating Systems|A|Dr.Smith|Tue10:00-12:00|Room301|2026S1
+COMP3002|Computer Networks|B|Dr.Kim|Wed14:00-16:00|Room302|2026S1
+COMP3003|Data Communication|A|Dr.Lee|Mon10:00-12:00|Room303|2026S1
+COMP3004|Software Engineering|C|Dr.Davis|Thu14:00-16:00|Room304|2026S1
+COMP4001|AI Intro|C|Dr.Zhang|Thu16:00-18:00|Room401|2026S2
+COMP4002|Machine Learning|A|Dr.Green|Mon09:00-11:00|Room402|2026S2
+COMP4003|Cloud Computing|B|Dr.White|Tue09:00-11:00|Room403|2026S2
+COMP4004|Cyber Security|A|Dr.Smith|Fri14:00-16:00|Room404|2026S2
+COMP5001|Distributed Systems|B|Dr.Johnson|Wed10:00-12:00|Room501|2026S2
+COMP5002|Big Data Analytics|C|Dr.Wang|Fri10:00-12:00|Room502|2026S2
+MATH1001|Calculus I|A|Dr.Liu|Mon16:00-18:00|Room601|2026S1
+MATH2001|Discrete Mathematics|B|Dr.Taylor|Tue16:00-18:00|Room602|2026S1
+STAT2001|Probability and Statistics|C|Dr.Anderson|Wed16:00-18:00|Room603|2026S1
+BUS1001|Business Communication|A|Dr.Martin|Thu09:00-11:00|Room701|2026S2
+ENG1001|Academic English|B|Dr.Wilson|Fri16:00-18:00|Room702|2026S2
